@@ -460,7 +460,53 @@ hr {
       }
 }
 
-
+fieldset {
+    width: 350px;
+    border: 1px solid #009688;
+    border-radius: 20px;
+    padding: 20px;
+    
+}
+legend {
+    background-color: #efefef;
+    border: 1px solid #009688;
+    border-radius: 10px;
+    padding: 10px 20px;
+    text-transform: uppercase;
+}
+input ,select{
+    height: 30px;
+    border:1px solid #009688;
+    border-radius: 10px;
+    font-size: medium;
+    
+}
+label { 
+    font-size: 20px;
+}
+.container {
+    display: flex;
+    justify-content: space-around;
+}
+button {
+    margin-top: 15px;
+    position: relative;
+    left: 47%;
+    height: 40px;
+    border: 1px solid #009688;
+    font-size: medium;
+    border-radius: 10px;
+    width: 80px;
+    
+    font-weight: 600;
+    background-color: #009688;
+    
+}
+button:hover {
+    background-color: #efefef;
+    transition: .8s;
+    transform: translateY(-5px);
+}
 
 
 
